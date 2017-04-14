@@ -25,11 +25,11 @@ related meanings of data science, and pursue both with conscious vigor.
 Many movements
 --------------
 
-### Teaching computing
+### Teaching and computing
 
 There appears to have been a significant shift in teaching of programming,
 both at school and university. Schools now do earlier and more substantial
-teaching of hardware, code and algorithms.  In the new UK computer science
+teaching on hardware, code and algorithms.  In the new UK computer science
 curriculum 'Pupils aged five to seven will be expected to "understand what
 algorithms are" and to "create and debug simple programs" [^bbc-curriculum].
 The \$35 Raspberry Pi computer was designed to teach children in secondary
@@ -49,9 +49,20 @@ Gareth Halfacree.
 In universities, introductory courses in programming are now more likely to be
 taught in Python than other languages such as Java (perceived as attractive
 for industry) or Lisp / Scheme (admired for their purity of syntax and
-design).  At the same time, Python has advanced rapidly as a language for
-scientific computing, with great expansion in coverage and quality of general
-scientific and domain specific libraries.
+design).  At the same time, Python has advanced as a language for scientific
+computing, with great expansion in the range and quality of general scientific
+and domain specific libraries.  The spread of Python into introductory and
+practical research computing means that students starting data analysis have
+a much more general set of tools to design and customize their analysis.
+
+As Python has become standard for scientific computing, it has started to
+change the way that we teach.  When the student understands simple code in a
+language like Python, it is often revealing to use code to link the underlying
+mathematics to its implementation in code.   Students can understand the math
+through the code, and explore the algorithms used for the analysis by reading
+and modifying the analysis code.
+
+### Agile development process
 
 
 ## References
