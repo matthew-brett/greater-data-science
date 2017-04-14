@@ -52,10 +52,10 @@ for industry) or Lisp / Scheme (admired for their purity of syntax and
 design).  At the same time, Python has advanced as a language for scientific
 computing, with great expansion in the range and quality of general scientific
 and domain specific libraries.  The spread of Python into introductory and
-practical research computing means that students starting data analysis with
-a rich combination of a general programming language with standard packages
-for array manipulation, machine learning and statistics; they may have
-specific Python libraries for their own domain.
+research computing means that students start practical data analysis with a
+rich combination of a general programming language with standard packages for
+array manipulation, machine learning and statistics; they may have specific
+Python libraries for their own domain.
 
 As Python has become standard for scientific computing, it has started to
 change the way that we teach.  When the student understands simple code in a
