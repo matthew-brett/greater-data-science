@@ -20,7 +20,7 @@ and argue that there are two primary themes: a nascent revolution in the
 process of scientific inquiry, and an overwhelming pressure, largely from our
 students, to teach data analysis and inference using code.  In order to
 proceed at the fastest pace, we need to disentangle these themes from the
-related meanings of data science, and pursue both with conscious vigor.
+related meanings of data science, and pursue both themes with conscious vigor.
 
 Many movements
 --------------
@@ -36,8 +36,8 @@ The \$35 Raspberry Pi computer was designed to teach children in secondary
 school how to understand computers and program them, where the "Pi" is an
 explicit reference to Python, the main language used for coding on these
 machines.  The current edition of the official "Raspberry Pi User Guide" has
-an Introduction starting with a section "Programming is Fun!", but chapter 3
-of 16 is "Linux System Administration" and has sections on "File System
+an introduction starting with a section "Programming is Fun!", but chapter 3
+(of 16) is "Linux System Administration" and has sections on "File System
 Layout" and "Managing Software at the Command Line" [^rpi-user-guide].
 
 [^bbc-curriculum]: <http://www.bbc.co.uk/news/education-23222068>
@@ -52,8 +52,10 @@ for industry) or Lisp / Scheme (admired for their purity of syntax and
 design).  At the same time, Python has advanced as a language for scientific
 computing, with great expansion in the range and quality of general scientific
 and domain specific libraries.  The spread of Python into introductory and
-practical research computing means that students starting data analysis have
-a much more general set of tools to design and customize their analysis.
+practical research computing means that students starting data analysis with
+a rich combination of a general programming language with standard packages
+for array manipulation, machine learning and statistics; they may have
+specific Python libraries for their own domain.
 
 As Python has become standard for scientific computing, it has started to
 change the way that we teach.  When the student understands simple code in a
