@@ -6,13 +6,13 @@ science, all loosely related to computing.  These movements are a response to
 related developments in computing education, the success of the agile software
 development process, the rise of open source, a major expansion in the amount
 and range of data we can practically analyze, and an increasing emphasis
-towards code and algorithms in data analysis.  A combination of related
-factors has caused a huge increase in the actual and potential use of software
-in industry and academia, and a matching increase in the demand for
-programmers and computational data analysts.  Less clearly related is the rise
-of the movement towards reproducible science, including open code and data.
-It may not be a coincidence that the major early champion for this movement,
-David Donoho, also works in a computational field (computational statistics).
+towards code and algorithms.  A combination of related factors has caused a
+great increase in the actual and potential use of software in industry and
+academia, and, in industry, a matching increase in the demand for programmers
+and computational data analysts.  Less clearly related is the rise of the
+movement towards reproducible science, including open code and data.  It may
+not be a coincidence that the major early champion for this movement, David
+Donoho, also works in a computational field (computational statistics).
 
 In academia, all these movements seem to appear under or around the umbrella
 of "data science".  Here we summarize these movements as we understand them,
