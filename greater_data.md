@@ -14,11 +14,13 @@ of the movement towards reproducible science, including open code and data.
 It may not be a coincidence that the major early champion for this movement,
 David Donoho, also works in a computational field (computational statistics).
 
-All these movements seem to appear under or around the umbrella of "data
-science".  Here we will try to summarize these movements as we understand
-them, and argue that there are two primary themes: a nascent revolution in the
+In academia, all these movements seem to appear under or around the umbrella
+of "data science".  Here we summarize these movements as we understand them,
+and argue that there are two primary themes: a nascent revolution in the
 process of scientific inquiry, and an overwhelming pressure, largely from our
-students, to teach data analysis and inference using code.
+students, to teach data analysis and inference using code.  In order to
+proceed at the fastest pace, we need to disentangle these themes from the
+related meanings of data science, and pursue both with conscious vigor.
 
 ## References
 
