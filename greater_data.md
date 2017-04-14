@@ -22,6 +22,38 @@ students, to teach data analysis and inference using code.  In order to
 proceed at the fastest pace, we need to disentangle these themes from the
 related meanings of data science, and pursue both with conscious vigor.
 
+Many movements
+--------------
+
+### Teaching computing
+
+There appears to have been a significant shift in teaching of programming,
+both at school and university. Schools now do earlier and more substantial
+teaching of hardware, code and algorithms.  In the new UK computer science
+curriculum 'Pupils aged five to seven will be expected to "understand what
+algorithms are" and to "create and debug simple programs" [^bbc-curriculum].
+The \$35 Raspberry Pi computer was designed to teach children in secondary
+school how to understand computers and program them, where the "Pi" is an
+explicit reference to Python, the main language used for coding on these
+machines.  The current edition of the official "Raspberry Pi User Guide" has
+an Introduction starting with a section "Programming is Fun!", but chapter 3
+of 16 is "Linux System Administration" and has sections on "File System
+Layout" and "Managing Software at the Command Line" [^rpi-user-guide].
+
+[^bbc-curriculum]: <http://www.bbc.co.uk/news/education-23222068>
+[^rpi-user-guide]: [Raspberry Pi User Guide 4th
+edition](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1119264367.html)
+(2016) Eben Upton and
+Gareth Halfacree.
+
+In universities, introductory courses in programming are now more likely to be
+taught in Python than other languages such as Java (perceived as attractive
+for industry) or Lisp / Scheme (admired for their purity of syntax and
+design).  At the same time, Python has advanced rapidly as a language for
+scientific computing, with great expansion in coverage and quality of general
+scientific and domain specific libraries.
+
+
 ## References
 
 Donoho, David L. "50 years of Data Science." Princeton NJ, Tukey Centennial
