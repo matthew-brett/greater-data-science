@@ -59,10 +59,10 @@ Python libraries for their own domain.
 
 As Python has become standard for scientific computing, it has started to
 change the way that we teach.  When the student understands simple code in a
-language like Python, it is often revealing to use code to link the underlying
-mathematics to its implementation in code.   Students can understand the math
-through the code, and explore the algorithms used for the analysis by reading
-and modifying the analysis code.
+language like Python, it is often revealing to link the underlying mathematics
+to its implementation in code.  Students can understand mathematics through
+the code, and explore the algorithms used for the analysis by reading and
+modifying the analysis code.
 
 ### Agile development process
 
