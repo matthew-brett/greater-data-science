@@ -23,14 +23,14 @@ behind the software, belonged to the company that produced it.  Since then,
 the F/OSS movement has produced a large range of high quality software, of
 which Linux, Python and the R statistics language are three prominent
 examples.  F/OSS software can be produced by relatively small teams of
-distributed programmers, working without pay; their work is public rather than
-private; transparent rather than opaque, ours rather than yours.
+distributed programmers, working without pay; their work is transparent rather than opaque, public rather than private.
 
 #### Open source and the scientific method
 
-As it became clear that software *could* be written that way, it also became
-clear that the principles of F/OSS were a better match to the scientific
-method because it is transparent, easily shared, and can be checked for error.
+As it became clear that software *could* be written effectively using F/OSS,
+it also became clear that the principles of F/OSS matched those of the
+scientific method.  F/OSS, like science, embraces transparency as a means to
+sharing information and correcting error.
 
 #### Agile development and code quality
 
@@ -55,16 +55,36 @@ much easier to develop and maintain high-quality scientific code.
 Over the last twenty years, most scientists have learned to write code.  As
 they have done so, it has become clear that *code is method*.  That is, that
 the algorithms instantiated in the code are the fundamental stuff of data
-analysis, and that the code is the final and often the clearest guide to the
-algorithm. The combination of improved development practice and models of
-F/OSS success showed scientists that they must recover control and
-understanding of their analysis by writing their own code, and contributing to
-code they rely on.
+analysis.  Many algorithms rely on careful handling of corner cases and
+quirks, which are difficult to specify outside the code.  The code is the
+definitive and often the clearest guide to the algorithm.
+
+The combination of improved development practice and models of F/OSS success
+showed scientists that they must recover control and understanding of their
+analysis by writing their own code, and contributing to code they rely on.
+
+#### Experience gives greater awareness of error
+
+It is characteristic of inexperienced developers that they make more errors,
+are less likely to detect errors, and underestimate the number of errors they
+are making. To quote Charles Darwin: "Ignorance more frequently begets
+confidence than does knowledge".  This is a dangerous situation if the code is
+critical to the outcome, as is often the case in science.  As more scientists
+have become experienced developers, and have adopted quality control methods
+like automated testing and high test coverage, it has become clear that
+scientific code, like other code, has a high propensity for error, and that
+controlling error is a difficult task that needs a combination of reflective
+practice and standard process.  When few scientists were experienced
+developers, it seemed reasonable to assume that scientists, on the whole, were
+producing code that did a correct analysis on the data it would be applied to.
+Now we have more experience, we know that this assumption is very unlikely to
+be true, and that we have to train our students to stop them falling into the
+same complacency that we suffered ourselves, early in our careers.
 
 #### Example: the rise of open source statistics
 
 We can see the sum of the factors above in the history of statistical
-software.  Twenty years ago, a researcher using statistics would likely chose
+software.  Twenty years ago, a researcher using statistics would likely choose
 from a number of large expensive software packages such as BMDP, SAS, SPSS,
 and S plus.  Statisticians developing new methods had to chose which of these
 packages they would develop for.  Users could only practically use methods
@@ -81,7 +101,7 @@ There appears to have been a significant shift in teaching of programming,
 both at school and university. Schools now do earlier and more substantial
 teaching on hardware, code and algorithms.  In the new UK computer science
 curriculum 'Pupils aged five to seven will be expected to "understand what
-algorithms are" and to "create and debug simple programs" [^bbc-curriculum].
+algorithms are" and to "create and debug simple programs"' [^bbc-curriculum].
 The \$35 Raspberry Pi computer was designed to teach children in secondary
 school how to understand computers and program them, where the "Pi" is an
 explicit reference to Python, the main language used for coding on these
@@ -93,8 +113,7 @@ Layout" and "Managing Software at the Command Line" [^rpi-user-guide].
 [^bbc-curriculum]: <http://www.bbc.co.uk/news/education-23222068>
 [^rpi-user-guide]: [Raspberry Pi User Guide 4th
 edition](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1119264367.html)
-(2016) Eben Upton and
-Gareth Halfacree.  Wiley
+(2016) Eben Upton and Gareth Halfacree.  Wiley
 
 In universities, introductory courses in programming are now more likely to be
 taught in Python than other languages such as Java (perceived as attractive
@@ -121,9 +140,7 @@ Developments in computer science and statistics have caused considerable
 shifts in the types of analysis that researchers are using.  In particular,
 the success of various forms of prediction and classification algorithms often
 categorized as "machine learning" have allowed researchers to ask a broader
-range of questions of their data.  In statistics, related developments in
-constrained regression allow models that select from a very large number of
-potential regressors.
+range of questions of their data.
 
 ### An increase in data volume
 
@@ -139,14 +156,14 @@ system administration.
 Summarizing:
 
 * rising importance of researchers competent in programming, and the lack of
-  adequate support for such researchers in a world increasingly driven by
+  career support for such researchers in a world increasingly driven by
   publication metrics;
 * increasing appreciation of the importance of scientific software to science
   in general, and to individual labs, and the lack of support for such
   software in current funding models;
-* the rise of a new type of researcher, competent in programming, that uses
-  programming for data analysis, using a combination of new code and existing
-  code libraries, typically in Python or R - the "data scientist".
+* increasing numbers of a new type of researcher, competent in programming,
+  that uses programming for data analysis, using a combination of new code and
+  existing code libraries, typically in Python or R - the "data scientist";
 * the rise of the reproducible software movement, as open source code becomes
   the norm, and working practice improves to make this practical.
 
@@ -155,14 +172,25 @@ Summarizing:
 Summarizing:
 
 * "data science" institutes (e.g, Berkeley, Harvard).  The argument here is
-  that there is some benefit to bringing together scientists that are using
-  similar methods and / or tools, and that the university will benefit from
+  that there is benefit to bringing together scientists that are using
+  similar methods and / or tools, in order to collaborate across domains. A
+  centre may make it easier for domain experts to find computational experts
+  willing to advise or collaborate.  The university will benefit from
   supporting researchers who implement and teach software for data analysis;
+
 * computational teaching - often called "data science".  Example, UC Berkeley
   data science main courses and connector courses.  The argument is that
-  students should learn to explore data using code, in order to increase the
-  range of analyses they can do, and improve their understanding of standard
-  analysis methods;
+  students should learn to explore data using code, to give them deeper
+  understanding of the limits of analysis, expand the range of analyses they
+  can choose from, and improve their understanding of standard analysis
+  methods.
+
+[comment]: <> (S: Why learn to explore data using code?  Aimed at better
+interpretation / intuition, accurate application of methods {know when to
+apply what}, and pragmatic aspect: being useful in industry where the
+commercial variant of the Data Science is not a movement but a much more
+clearly defined concept.)
+
 * research software engineers - see [^state-of-rse] - a UK-led initiative to
   support the subset of scientists who want to work on software full- or near
   full-time.
@@ -192,6 +220,11 @@ summarized into three primary themes:
   influx of agile / lean methodology from software development via open
   source.
 
+[comment]: <> (S: This corresponds with my feeling; unfortunately, I fear that
+the first item above often corrupts the other more noble items.  E.g., I think
+students should be learning much more of #3, but their drive and focus are
+largely on #1.)
+
 ### Where will we go?
 
 We can answer the question of where we are with reference to the end point of
@@ -201,15 +234,22 @@ these movements above.  I think we are going to see the following:
   language such as Python;
 * increased familiarity with code and data analysis will lead to a rapid
   diffusion of new data analysis methods across disciplines;
+  understanding will 
+
+[comment]: <> (S: This is already visible; unfortunately mostly in the form of
+"black box science".)
+
 * widespread recognition of the central role of software in data analysis.
   Researchers and students will engage directly with software - they will
   be strict in choosing F/OSS over alternatives, they will write their
   own code, contribute code to the libraries they use for their analysis, and
   spend some proportion of their time helping with maintenance of these
   libraries;
+
 * increasing experience with software will lead to universal adoption of "best
   practice" in scientific development (Wilson et al 2014), leading to
   increases in scientific productivity and quality;
+
 * greater contact with agile / mean process in software development, and an
   increasing emphasis on software development in scientific training, will
   lead to greater adoption of adapted agile / lean methods for scientific
@@ -217,6 +257,10 @@ these movements above.  I think we are going to see the following:
   feedback cycles, and close collaboration between team members with different
   expertise.  There will be an increasing emphasis on improving scientifi
   working process, to increase the efficiency and quality of research.
+
+[comment]: () (S: Industry has more or less figured out lean/agile as applied
+to their interests.  Significant modification may be needed for the adoption
+into science; we don't have many experiments to inform that redesign.)
 
 ## References
 
