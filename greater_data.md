@@ -69,17 +69,13 @@ It is characteristic of inexperienced developers that they make more errors,
 are less likely to detect errors, and underestimate the number of errors they
 are making. To quote Charles Darwin: "Ignorance more frequently begets
 confidence than does knowledge".  This is a dangerous situation if the code is
-critical to the outcome, as is often the case in science.  As more scientists
-have become experienced developers, and have adopted quality control methods
-like automated testing and high test coverage, it has become clear that
-scientific code, like other code, has a high propensity for error, and that
-controlling error is a difficult task that needs a combination of reflective
-practice and standard process.  When few scientists were experienced
-developers, it seemed reasonable to assume that scientists, on the whole, were
-producing code that did a correct analysis on the data it would be applied to.
-Now we have more experience, we know that this assumption is very unlikely to
-be true, and that we have to train our students to stop them falling into the
-same complacency that we suffered ourselves, early in our careers.
+critical to the outcome, as is often the case in science.  When few scientists
+were experienced developers, it seemed reasonable to assume that scientists,
+on the whole, were producing code that did a correct analysis on the data it
+would be applied to.  Now we have more experience, we know that this
+assumption is very unlikely to be correct, and that we have to train our
+students to stop them falling into the same complacency that we suffered
+ourselves, early in our careers.
 
 #### Example: the rise of open source statistics
 
