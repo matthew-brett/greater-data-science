@@ -1,4 +1,10 @@
-default: greater
+CULTURE=data_science_as_culture
+GREATER=greater_data
 
-greater:
-	pandoc -t latex -s greater_data.md -o greater_data.pdf
+all: build-$(CULTURE) build-$(GREATER)
+
+clean:
+	rm -rf *.pdf
+
+build-%:
+	pandoc --filter pandoc-citeproc $*.md -o $*.pdf

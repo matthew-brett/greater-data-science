@@ -1,5 +1,10 @@
-Where is data science?
-======================
+---
+# YAML metadata
+title: "Where is data science?"
+bibliography: data_science.bib
+nocite: |
+  @tukey1962future, @donoho201550, @wilson2014best
+---
 
 The term *data science* has come to stand for many different *movements* in
 science, all loosely related to computing.  I believe data science is itself a
@@ -7,14 +12,14 @@ movement, rather than a science.  If it is a movement, where are we in the
 trajectory of that movement, and where will we end up?  That is the question I
 am posing as "where is data science?".
 
-## Movements within "data science"
+# Movements within "data science"
 
-### Changes in the way we think about software
+## Changes in the way we think about software
 
 The way that we think about software has changed radically in response to the
 success of free / open source software (F/OSS).
 
-#### The rise of free / open source software
+### The rise of free / open source software
 
 Twenty years ago, the term "software" meant something that came in a
 shrink-wrapped box, written by a large and expensive software development
@@ -25,14 +30,14 @@ which Linux, Python and the R statistics language are three prominent
 examples.  F/OSS software can be produced by relatively small teams of
 distributed programmers, working without pay; their work is transparent rather than opaque, public rather than private.
 
-#### Open source and the scientific method
+### Open source and the scientific method
 
 As it became clear that software *could* be written effectively using F/OSS,
 it also became clear that the principles of F/OSS matched those of the
 scientific method.  F/OSS, like science, embraces transparency as a means to
 sharing information and correcting error.
 
-#### Agile development and code quality
+### Agile development and code quality
 
 Over the same period, there has been a large change in standard software
 development process, from the standard corporate "waterfall" method, where the
@@ -50,7 +55,7 @@ open-source, and thence into scientific software development. Their particular
 emphasis is on quality and productive collaboration, and they have made it
 much easier to develop and maintain high-quality scientific code.
 
-#### Code is method / take back the code
+### Code is method / take back the code
 
 Over the last twenty years, most scientists have learned to write code.  As
 they have done so, it has become clear that *code is method*.  That is, that
@@ -63,7 +68,7 @@ The combination of improved development practice and models of F/OSS success
 showed scientists that they must recover control and understanding of their
 analysis by writing their own code, and contributing to code they rely on.
 
-#### Experience gives greater awareness of error
+### Experience gives greater awareness of error
 
 It is characteristic of inexperienced developers that they make more errors,
 are less likely to detect errors, and underestimate the number of errors they
@@ -77,7 +82,7 @@ assumption is very unlikely to be correct, and that we have to train our
 students to stop them falling into the same complacency that we suffered
 ourselves, early in our careers.
 
-#### Example: the rise of open source statistics
+### Example: the rise of open source statistics
 
 We can see the sum of the factors above in the history of statistical
 software.  Twenty years ago, a researcher using statistics would likely choose
@@ -91,7 +96,7 @@ the S plus language, called R.  It has rapidly become the *de facto* standard
 statistical package used and taught by statisticians.  It is common for new
 methods to be released with R code to implement them.
 
-### Changes in the way we teach programming
+## Changes in the way we teach programming
 
 There appears to have been a significant shift in teaching of programming,
 both at school and university. Schools now do earlier and more substantial
@@ -130,7 +135,7 @@ to its implementation.  Students can understand mathematics through the code,
 and explore the algorithms used for the analysis by reading and modifying the
 analysis code.
 
-### A wider range of algorithms for data analysis
+## A wider range of algorithms for data analysis
 
 Developments in computer science and statistics have caused considerable
 shifts in the types of analysis that researchers are using.  In particular,
@@ -138,7 +143,7 @@ the success of various forms of prediction and classification algorithms often
 categorized as "machine learning" have allowed researchers to ask a broader
 range of questions of their data.
 
-### An increase in data volume
+## An increase in data volume
 
 There has been a vast increase in our ability to collect, store and analyze
 data, driven by a combination of improved hardware for data collection and
@@ -147,7 +152,7 @@ storage.  Using and writing such software is a major challenge for scientists
 without training in unfamiliar subjects such as parallel programming and
 system administration.
 
-## Symptoms of these movements
+# Symptoms of these movements
 
 Summarizing:
 
@@ -163,7 +168,7 @@ Summarizing:
 * the rise of the reproducible software movement, as open source code becomes
   the norm, and working practice improves to make this practical.
 
-## Responses
+# Responses
 
 Summarizing:
 
@@ -201,7 +206,7 @@ largely as a result of the strong pressure for increased quality of
 collaboration between the labs, leading to advances in working process.  These
 are the kind of advances that arise from agile / lean methodology.)
 
-## Where is data science?
+# Where is data science?
 
 I suggest that we are now at a stage where the relationship of the various
 movements above is starting to become clear.  I believe that they can be
@@ -221,7 +226,7 @@ the first item above often corrupts the other more noble items.  E.g., I think
 students should be learning much more of #3, but their drive and focus are
 largely on #1.)
 
-### Where will we go?
+## Where will we go?
 
 We can answer the question of where we are with reference to the end point of
 these movements above.  I think we are going to see the following:
@@ -258,14 +263,4 @@ these movements above.  I think we are going to see the following:
 to their interests.  Significant modification may be needed for the adoption
 into science; we don't have many experiments to inform that redesign.)
 
-## References
-
-Donoho, David L. "50 years of Data Science." Princeton NJ, Tukey Centennial
-Workshop. 2015.
-
-Tukey, John W. "The Future of Data Analysis." Ann. Math. Statist. 33 (1962),
-no.  1, 1--67. doi:10.1214/aoms/1177704711.
-http://projecteuclid.org/euclid.aoms/1177704711.
-
-Wilson, Greg, et al. "Best practices for scientific computing." PLoS Biol 12.1
-(2014): e1001745.
+# Bibliography
